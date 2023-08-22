@@ -16,7 +16,7 @@ function LoginForm(props: LoginFormProps) {
           <div className="login-form__input-block">
             <TextInputFormField
                 name="username"
-                className="mb-2"
+                className="login-form__input mb-2"
                 inputType="email"
                 register={register}                
                 placeholder="Email"
@@ -24,6 +24,7 @@ function LoginForm(props: LoginFormProps) {
             <TextInputFormField
                 name="password"
                 inputType="password"
+                className="login-form__input"
                 register={register}
                 placeholder="Password"
             />

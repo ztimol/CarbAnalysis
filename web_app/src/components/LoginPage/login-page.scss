@@ -1,3 +1,5 @@
+@import '../../themes/themes.scss';
+
 .login-page {
     display: flex;
     justify-content: center;
@@ -6,14 +8,18 @@
     flex-direction: column;
 
     .login-page__box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
+        min-height: 500px;
+        width: 450px;
+        border-radius: 10px;
+        border: 1px solid $grey0;
+        
+        @media (max-width: 800px) {
+            border: none;
+            width: 100vw;
+        }
     }
 
-    .login-page__logo = {
+    .login-page__logo  {
         height: 50%;
         width: 100%;
         display: flex;
