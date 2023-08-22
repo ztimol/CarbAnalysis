@@ -1,0 +1,36 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    .login-page__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .login-page__logo = {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-page__form {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+    
+}
+
+
+
+
+

@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import AuthRouter from './AuthRouter';
+import NonAuthRouter from './NonAuthRouter';
 
 function BasePage() {
     return (
-        <AuthRouter/>
+        <Fragment>
+          {/* <AuthRouter/>; */}
+        <NonAuthRouter/>;
+        </Fragment>
     );
 }
 
